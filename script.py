@@ -10,10 +10,6 @@ uiapp = __revit__
 uidoc = uiapp.ActiveUIDocument
 doc = uiapp.ActiveUIDocument.Document
 
-import sys
-sys.path.append("C:\Users\dolan.klock\OneDrive - HOK\desktop\OneDrive Sharing\PythonResources\Revit")
-sys.path.append("C:\Users\dolan.klock\OneDrive - HOK\desktop\OneDrive Sharing\PythonResources\Revit\OL & WF Resources")
-
 from GetSetParameters import *
 from pyrevit import forms, revit, DB, script
 from GetSetParameters import *
@@ -42,8 +38,8 @@ import projectfunctions
 # main naming scheme text types
 # 2.5mm Arial Narrow Blue_CENTRUS
 # if has other attributes checked (bold, underlined,)
-# 2.5mm Arial Narrow (Opaque-Filled Dot-Bold-Italic-Black)_CENTRUS
-# [text size] [font] ([background]-[leader arrowhead]-[bold]-[italic]-[underlined]-[color])_CENTRUS
+# 2.5mm Arial Narrow (Opaque-Filled Dot-Bold-Italic-Black)
+# [text size] [font] ([background]-[leader arrowhead]-[bold]-[italic]-[underlined]-[color])
 
 # text note type parameters
 # (Graphics) Color, Line Weight, Background, Show Border, Leader/Border Offset, Leader Arrowhead
