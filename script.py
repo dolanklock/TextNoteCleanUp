@@ -75,7 +75,7 @@ class TextNoteType:
     Returns:
         _type_: _description_
     """
-    TEXT_NOTE_SUFFIX = "_CENTRUS"
+    TEXT_NOTE_SUFFIX = "_SUFFIX"
 
     @staticmethod
     def font(text_type):
